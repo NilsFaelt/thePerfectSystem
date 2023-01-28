@@ -11,6 +11,9 @@ Evryday i will spend a minimun of one hour on the project and see what happens a
 ## backEnd 
 • Nest
 
+## goal
+My biggest problem with code is that i think evrything feels sloppy and not sustainable.
+My goal in this project is tahat i will make sure that the code feels robust and unbreakable.
 
 ### Creator
 Nisl Fält 
