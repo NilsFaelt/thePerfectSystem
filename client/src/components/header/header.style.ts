@@ -15,7 +15,16 @@ export const Title = styled.h1`
   margin: 20px;
   &:hover {
     transition: 1s;
-    text-shadow: 2px 2px 2px white;
-    color: black;
+    text-shadow: 2px 2px 2px ${({ theme }) => theme.colors.textColor};
+    color: ${({ theme }) => theme.colors.darkColor};
+    span {
+      transition: 1s;
+      font-size: 1.5rem;
+      color: ${({ theme }) => theme.colors.textColor};
+      text-shadow: 0px 0px 0px;
+    }
+  }
+  span {
+    font-size: 0.5rem;
   }
 `;

@@ -25,6 +25,8 @@ export const InputField = styled.input`
   height: 20px;
   background-color: ${({ theme }) => theme.colors.input};
   border: 1px solid ${({ theme }) => theme.colors.border};
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
   &::placeholder {
     font-family: "Orbitron", sans-serif;
   }

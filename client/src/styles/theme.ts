@@ -9,5 +9,6 @@ export const theme = {
     input: "rgba(255,255,255)",
     transparent: "rgba(255, 255, 255, 0.1)",
     lightColor: "rgba(255,255,255)",
+    darkColor: "rgba(0, 0, 0, 1)",
   },
 };
