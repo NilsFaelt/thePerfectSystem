@@ -6,5 +6,8 @@ export const theme = {
     bodyLight: "rgba(0, 0, 0, 0)",
     border: "rgba(255,255,255)",
     textColor: "rgba(255,255,255)",
+    input: "rgba(255,255,255)",
+    transparent: "rgba(255, 255, 255, 0.1)",
+    lightColor: "rgba(255,255,255)",
   },
 };

@@ -1,10 +1,18 @@
-import Header from "./components/header/Header";
+import Layout from "./components/layout/Layout";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./pages/main/Main";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+  },
+]);
 
 function App() {
   return (
-    <div>
-      <Header />
-    </div>
+    <Layout>
+      <RouterProvider router={router} />
+    </Layout>
   );
 }
 
