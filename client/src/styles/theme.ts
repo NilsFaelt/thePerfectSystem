@@ -10,5 +10,6 @@ export const theme = {
     transparent: "rgba(255, 255, 255, 0.1)",
     lightColor: "rgba(255,255,255)",
     darkColor: "rgba(0, 0, 0, 1)",
+    gold: "rgba(255,215,0)",
   },
 };

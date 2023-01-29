@@ -30,6 +30,6 @@ export const Title = styled.h1`
   }
   span {
     font-size: 0.5rem;
-    color: gold;
+    color: ${({ theme }) => theme.colors.gold};
   }
 `;
