@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  width: 100vw;
-  height: 10vh;
   position: absolute;
   top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
   background-color: ${({ theme }) => theme.colors.body};
   color: ${({ theme }) => theme.colors.textColor};
 `;
@@ -14,22 +17,16 @@ export const Title = styled.h1`
   display: inline-block;
   margin: 20px;
   &:hover {
-    transition: 1s;
-    text-shadow: 2px 2px 2px ${({ theme }) => theme.colors.textColor};
-    color: ${({ theme }) => theme.colors.darkColor};
     span {
       transition: 1s;
       font-size: 1.5rem;
       color: ${({ theme }) => theme.colors.textColor};
       text-shadow: 0px 0px 0px;
-
-      &:hover {
-        color: gold;
-      }
+      color: gold;
     }
   }
   span {
     font-size: 0.5rem;
-    color: ${({ theme }) => theme.colors.gold};
+    color: ${({ theme }) => theme.colors.lightColor};
   }
 `;

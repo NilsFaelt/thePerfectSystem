@@ -1,3 +1,4 @@
+import BurgerMenu from "../../ui/burgerMenu/BurgerMenu";
 import * as styles from "./header.style";
 
 const Header = () => {
@@ -6,6 +7,7 @@ const Header = () => {
       <styles.Title>
         Clerp <span>Systems</span>
       </styles.Title>
+      <BurgerMenu />
     </styles.Header>
   );
 };

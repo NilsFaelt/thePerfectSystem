@@ -1,4 +1,4 @@
-import * as styles from "./desicionCheckPopUp.style";
+import * as styles from "./confirmPopUp.style";
 import * as GlobalElementStyles from "../../styles/globalElements";
 interface Props {
   text?: string;
