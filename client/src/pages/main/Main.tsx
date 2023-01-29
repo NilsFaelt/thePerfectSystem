@@ -1,3 +1,4 @@
+import DesicionCheckPopUp from "../../components/desicionCheckPopUp/DesicionCheckPopUp";
 import Login from "../../components/login/Login";
 import * as styles from "./main.style";
 
