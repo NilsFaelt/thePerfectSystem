@@ -22,9 +22,14 @@ export const Title = styled.h1`
       font-size: 1.5rem;
       color: ${({ theme }) => theme.colors.textColor};
       text-shadow: 0px 0px 0px;
+
+      &:hover {
+        color: gold;
+      }
     }
   }
   span {
     font-size: 0.5rem;
+    color: gold;
   }
 `;
